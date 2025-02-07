@@ -9,7 +9,7 @@ body:
       label: "Describe the bug"
       description: "A clear and concise description of what the bug is."
     validations:
-      required: false
+      required: true
   - type: textarea
     attributes:
       label: "Steps to reproduce"
@@ -40,4 +40,4 @@ body:
         - OS (distibution), version : [e.g. Linux (Ubuntu), 20.0.3]
         - Tools and versions: [e.g. Docker Desktop 4.19.0]
     validations:
-      required: true
+      required: false
