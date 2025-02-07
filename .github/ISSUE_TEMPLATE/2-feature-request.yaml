@@ -6,13 +6,6 @@ labels:
 body:
   - type: textarea
     attributes:
-      label: Type
-      description: Describe if this a one-off feature or a series of features.
-      placeholder: Describe the type of feature here...
-    validations:
-      required: true
-  - type: textarea
-    attributes:
       label: Problem Description
       description: Describe if your feature request is related to a problem. Please describe the problem.
       placeholder: Describe the problem here...
@@ -20,11 +13,18 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Type
+      description: Describe if this a one-off feature or a series of features.
+      placeholder: Describe the type of feature here...
+    validations:
+      required: false
+  - type: textarea
+    attributes:
       label: Solution Description
       description: Describe the solution you'd like, how it will impact you, and why we should implement it.
       placeholder: Describe the solution you'd like here...
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Alternatives Considered
