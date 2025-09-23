@@ -1,0 +1,11 @@
+{
+  "name": "Taskfile",
+  "description": "Install and Invoke Taskfile.dev.",
+  "iconName": "octicon package",
+  "categories": [
+    "Continuous integration"
+  ],
+  "filePatterns": [
+    ".*"
+  ]
+}
