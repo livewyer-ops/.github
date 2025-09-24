@@ -1,0 +1,11 @@
+{
+  "name": "Create Github Release",
+  "description": "Create a GitHub Release after a new tag is pushed.",
+  "iconName": "octicon tag",
+  "categories": [
+    "Continuous integration"
+  ],
+  "filePatterns": [
+    ".*"
+  ]
+}
